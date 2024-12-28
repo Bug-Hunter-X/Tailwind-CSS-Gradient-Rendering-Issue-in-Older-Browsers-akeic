@@ -1,0 +1,9 @@
+```html
+<div class="bg-blue-500 p-4 rounded-lg shadow-md">
+  <!-- fallback color -->
+  <div class="bg-gradient-to-r from-blue-500 to-purple-500 p-4 rounded-lg shadow-md">
+    <!-- Content here -->
+  </div>
+</div>
+```
+This solution utilizes a fallback background color (`bg-blue-500`) to ensure that *something* is displayed, even if the gradient is unsupported.  The gradient is still applied within this fallback, ensuring that modern browsers still get the desired effect.
